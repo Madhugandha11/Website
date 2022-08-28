@@ -59,7 +59,7 @@
             <h1>My Thoughts</h1>
             <p>Sample Filler Text</p>
         </div>
-        <div class="row mb-3" style="background-image: url(https://mdbootstrap.com/img/Photos/new-templates/glassmorphism-article/img7.jpg); height: 700px;">
+        <div class="row mb-3">
             <div class="col-md-6 mb-4" > 
                 <img style="object-fit: cover; height: 300px;width: 100%;"
                     src="https://images.unsplash.com/photo-1660660519984-4e24c429916c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDYxfENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -97,7 +97,8 @@
             <div class="col-md-4 mb-3">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Some Title</h4>
+                        <h4 class="card-title" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                  data-mdb-animation="fade-in-down" data-mdb-animation-duration="1000" data-mdb-animation-delay="300"> Some Title</h4>
                         <p class="card-text">Long text to read</p>
                     </div>
                 </div>
@@ -105,7 +106,8 @@
             <div class="col-md-4 mb-3">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Some Title</h4>
+                        <h4 class="card-title" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                  data-mdb-animation="fade-in-down" data-mdb-animation-duration="1000" data-mdb-animation-delay="300">Some Title</h4>
                         <p class="card-text">Long text to read</p>
                     </div>
                 </div>
@@ -113,7 +115,8 @@
             <div class="col-md-4 mb-3">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Some Title</h4>
+                        <h4 class="card-title" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                  data-mdb-animation="fade-in-down" data-mdb-animation-duration="1000" data-mdb-animation-delay="300">Some Title</h4>
                         <p class="card-text">Long text to read</p>
                     </div>
                 </div>
@@ -121,7 +124,8 @@
             <div class="col-md-4 mb-3">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Some Title</h4>
+                        <h4 class="card-title" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                  data-mdb-animation="fade-in-down" data-mdb-animation-duration="1000" data-mdb-animation-delay="300">Some Title</h4>
                         <p class="card-text">Long text to read</p>
                     </div>
                 </div>
@@ -129,7 +133,8 @@
             <div class="col-md-4 mb-3">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Some Title</h4>
+                        <h4 class="card-title" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                  data-mdb-animation="fade-in-down" data-mdb-animation-duration="1000" data-mdb-animation-delay="300" >Some Title</h4>
                         <p class="card-text">Long text to read</p>
                     </div>
                 </div>
@@ -137,7 +142,8 @@
             <div class="col-md-4 mb-3">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Some Title</h4>
+                        <h4 class="card-title" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                  data-mdb-animation="fade-in-down" data-mdb-animation-duration="1000" data-mdb-animation-delay="300">Some Title</h4>
                         <p class="card-text">Long text to read</p>
                     </div>
                 </div>
