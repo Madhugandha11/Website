@@ -56,29 +56,33 @@
             </div>
         </div>
         <div class="row text-center mt-5 mb-3">
-            <h1>My Thoughts</h1>
+            <h1>My Interests</h1>
             <p>Sample Filler Text</p>
         </div>
         <div class="row mb-3">
             <div class="col-md-6 mb-4">
                 <img style="object-fit: cover; height: 300px;width: 100%;"
-                    src="https://images.unsplash.com/photo-1660660519984-4e24c429916c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDYxfENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                    alt="">
+                    src="web3.jpg"
+                    alt="WEB 3">
+					<p> WEB 3</p>
             </div>
             <div class="col-md-6 mb-4">
                 <img style="object-fit: cover; height: 300px;width: 100%;"
-                    src="https://images.unsplash.com/photo-1660660519984-4e24c429916c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDYxfENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                    alt="">
+                    src="blockchain.jpg"
+                    alt="BLOCKCHAIN">
+					<p> BLOCKCHAIN </p>
+            </div>
+            <div class="col-md-6 mb-4" class="text-center text-white fs-underline fs-3 mb-3">
+                <img style="object-fit: cover; height: 300px;width: 100%;"
+                    src="NFT.jpg"
+                    alt="NFT">
+					<p> NFT </p> 
             </div>
             <div class="col-md-6 mb-4">
                 <img style="object-fit: cover; height: 300px;width: 100%;"
-                    src="https://images.unsplash.com/photo-1660660519984-4e24c429916c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDYxfENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                    alt="">
-            </div>
-            <div class="col-md-6 mb-4">
-                <img style="object-fit: cover; height: 300px;width: 100%;"
-                    src="https://images.unsplash.com/photo-1660660519984-4e24c429916c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDYxfENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                    alt="">
+                    src="cryptography.jpg"
+                    alt="INFORMATION SECURITY">
+					<p> INFORMATION SECURITY </p>
             </div>
         </div>
 		
@@ -312,7 +316,7 @@ reference string.</div>
 In this work, we resolve the above question in the negative and construct a highly contrived encryption scheme which is CPA (and even CCA) secure but is not IND-SOA secure. In fact, it is broken in a very obvious sense by a selective opening attack as follows. A random value is secret-shared via Shamir’s scheme so that any t out of n shares reveal no information about the shared value. The n shares are individually encrypted under a common public key and the n resulting ciphertexts are given to the adversary who selectively chooses to see t of the ciphertexts opened. Counter-intuitively, by the specific properties of our encryption scheme, this suffices for the adversary to completely recover the shared value. Our contrived scheme relies on strong assumptions: public-coin differing inputs obfuscation and a certain type of correlation intractable hash functions.
 
 We also extend our negative result to the setting of SOA attacks with key opening (IND-SOA-K) where the adversary is given a collection of ciphertexts under different public keys and selectively chooses to see some subset of the secret keys.</div>
-					</div>
+					</div></div>
                 </div>
             </div>
 			 <div class="col-md-4 mb-3">
@@ -730,6 +734,9 @@ obtain a host of new results for such related-key attack secure cryptographic pr
 			
         </div>
     </div>
+
+
+
     <div class="container-fluid"
         style="background: url('https://images.unsplash.com/photo-1660385381636-fc743a8c091d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc5fENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60') no-repeat;background-size: cover;">
         <div class="row mb-4 text-white">
