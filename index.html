@@ -227,8 +227,14 @@ We also extend our negative result to the setting of SOA attacks with key openin
                     <div class="card-body">
                         <h4 class="card-title">Adaptively-secure Multiparty Non-interactive Key Exchange <br> (A dissertation submitted in partial satisfaction
 of the requirements for the degree
-Doctor of Philosophy in Computer Science):</br><br> Vanishree Hanumantha Rao</br></h4>
-                        <p class="card-text">Non-interactive key exchange (NIKE) is a fundamental notion in Cryptography. This notion
+Doctor of Philosophy in Computer Science):</br><br> Vanishree Rao</br></h4>
+                         <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://escholarship.org/content/qt55g8v0ws/qt55g8v0ws_noSplash_145cd270e6e2652aee3816df30eaeca5.pdf" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse6">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse6">
+        <div class="card card-body">Non-interactive key exchange (NIKE) is a fundamental notion in Cryptography. This notion
 was introduced by Diffie and Hellman in 1976. They proposed the well-known 2-party
 NIKE protocol and left open the generic question of whether NIKE could be realized in the
 multiparty setting. NIKE has since then been an active area of research with an ultimate
@@ -242,11 +248,8 @@ protocol that is adaptively secure with no setup and in the standard model.
 The solution employs novel techniques of using indistinguishability obfuscation, which
 are interesting in their own right and which seem promising in finding wider applications in
 other settings. One such technique pertains overcoming the somewhat inherent drawback of
-non-adaptivity of the puncturing technique introduced by Sahai and Waters.</p>
-                    
-					 <a href="https://escholarship.org/content/qt55g8v0ws/qt55g8v0ws_noSplash_145cd270e6e2652aee3816df30eaeca5.pdf" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
+non-adaptivity of the puncturing technique introduced by Sahai and Waters.</div>
+    </div>
 					</div>
                 </div>
             </div>
@@ -254,13 +257,16 @@ non-adaptivity of the puncturing technique introduced by Sahai and Waters.</p>
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Multi-party Key Exchange for Unbounded Parties from Indistinguishability Obfuscation :<br> Dakshita Khurana, Vanishree Rao & Amit Sahai </br></h4>
-                        <p class="card-text">Abstract. Existing protocols for non-interactive multi-party key exchange either (1) support a bounded number of users, (2) require a trusted setup, or (3) rely on knowledge-type assumptions.
-
-We construct the first non-interactive key exchange protocols which support an unbounded number of parties and have a security proof that does not rely on knowledge assumptions. Our non-interactive key-exchange protocol does not require a trusted setup and extends easily to the identity-based setting. Our protocols suffer only a polynomial loss to the underlying hardness assumptions.</p>
-                    <a href="https://link.springer.com/chapter/10.1007/978-3-662-48797-6_3" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
-					
+                        
+						<p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://link.springer.com/chapter/10.1007/978-3-662-48797-6_3" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse7">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse7">
+        <div class="card card-body">Existing protocols for non-interactive multi-party key exchange either (1) support a bounded number of users, (2) require a trusted setup, or (3) rely on knowledge-type assumptions.
+		We construct the first non-interactive key exchange protocols which support an unbounded number of parties and have a security proof that does not rely on knowledge assumptions. Our non-interactive key-exchange protocol does not require a trusted setup and extends easily to the identity-based setting. Our protocols suffer only a polynomial loss to the underlying hardness assumptions.</div>
+    </div>
 					</div>
                 </div>
             </div>
@@ -270,7 +276,13 @@ We construct the first non-interactive key exchange protocols which support an u
                         <h4 class="card-title">Adaptively Secure, Universally Composable,
 Multiparty Computation in Constant Rounds: Dana Dachman-Soled, Jonathan Katz,and Vanishree Rao
 </h4>
-                        <p class="card-text">Abstract. Cryptographic protocols with adaptive security ensure that
+                        <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://link.springer.com/content/pdf/10.1007/978-3-662-46497-7_23.pdf" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse8">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse8">
+        <div class="card card-body">Cryptographic protocols with adaptive security ensure that
 security holds against an adversary who can dynamically determine which
 parties to corrupt as the protocol progresses—or even after the protocol
 is finished. In the setting where all parties may potentially be corrupted,
@@ -280,11 +292,8 @@ running in constant rounds.
 Here, we show a constant-round, universally composable protocol for
 computing any functionality, tolerating a malicious, adaptive adversary
 corrupting any number of parties. Interestingly, our protocol can compute all functionalities, not just adaptively well-formed ones. The protocol relies on indistinguishability obfuscation, and assumes a common
-reference string.</p>
-					 <a href="https://link.springer.com/content/pdf/10.1007/978-3-662-46497-7_23.pdf" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
-
+reference string.</div>
+    </div>
                     </div>
                 </div>
             </div>
@@ -292,23 +301,31 @@ reference string.</p>
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Standard Security Does Not Imply Indistinguishability Under Selective Opening:<br> Dennis Hofheinz, Vanishree Rao & Daniel Wichs </br></h4>
-                        <p class="card-text">Abstract. In a selective opening attack (SOA) on an encryption scheme, the adversary is given a collection of ciphertexts and she selectively chooses to see some subset of them “opened”, meaning that the messages and the encryption randomness are revealed to her. A scheme is SOA secure if the data contained in the unopened ciphertexts remains hidden. A fundamental question is whether every CPA secure scheme is necessarily also SOA secure. The work of Bellare et al. (EUROCRYPT’12) gives a partial negative answer by showing that some CPA secure schemes do not satisfy a simulation-based definition of SOA security called SIM-SOA. However, until now, it remained possible that every CPA-secure scheme satisfies an indistinguishability-based definition of SOA security called IND-SOA.
+                        <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://link.springer.com/chapter/10.1007/978-3-662-53644-5_5" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse9">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse9">
+        <div class="card card-body">In a selective opening attack (SOA) on an encryption scheme, the adversary is given a collection of ciphertexts and she selectively chooses to see some subset of them “opened”, meaning that the messages and the encryption randomness are revealed to her. A scheme is SOA secure if the data contained in the unopened ciphertexts remains hidden. A fundamental question is whether every CPA secure scheme is necessarily also SOA secure. The work of Bellare et al. (EUROCRYPT’12) gives a partial negative answer by showing that some CPA secure schemes do not satisfy a simulation-based definition of SOA security called SIM-SOA. However, until now, it remained possible that every CPA-secure scheme satisfies an indistinguishability-based definition of SOA security called IND-SOA.
 
 In this work, we resolve the above question in the negative and construct a highly contrived encryption scheme which is CPA (and even CCA) secure but is not IND-SOA secure. In fact, it is broken in a very obvious sense by a selective opening attack as follows. A random value is secret-shared via Shamir’s scheme so that any t out of n shares reveal no information about the shared value. The n shares are individually encrypted under a common public key and the n resulting ciphertexts are given to the adversary who selectively chooses to see t of the ciphertexts opened. Counter-intuitively, by the specific properties of our encryption scheme, this suffices for the adversary to completely recover the shared value. Our contrived scheme relies on strong assumptions: public-coin differing inputs obfuscation and a certain type of correlation intractable hash functions.
 
-We also extend our negative result to the setting of SOA attacks with key opening (IND-SOA-K) where the adversary is given a collection of ciphertexts under different public keys and selectively chooses to see some subset of the secret keys.</p>
-                    
-					<a href="https://link.springer.com/chapter/10.1007/978-3-662-53644-5_5" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
-					</div>
+We also extend our negative result to the setting of SOA attacks with key opening (IND-SOA-K) where the adversary is given a collection of ciphertexts under different public keys and selectively chooses to see some subset of the secret keys.</div>
+					</div></div>
                 </div>
             </div>
 			 <div class="col-md-4 mb-3">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Adaptive Security of Constrained PRFs : <br>Georg Fuchsbauer, Momchil Konstantinov,Krzysztof Pietrzak, and Vanishree Rao</br></h4>
-                        <p class="card-text">Abstract. Constrained pseudorandom functions have recently been introduced independently by Boneh and Waters (Asiacrypt’13), Kiayias et
+                        <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://link.springer.com/content/pdf/10.1007/978-3-662-45608-8_5.pdf" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse10">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse10">
+        <div class="card card-body">Constrained pseudorandom functions have recently been introduced independently by Boneh and Waters (Asiacrypt’13), Kiayias et
 al. (CCS’13), and Boyle et al. (PKC’14). In a standard pseudorandom
 function (PRF) a key k is used to evaluate the PRF on all inputs in the
 domain. Constrained PRFs additionally offer the functionality to delegate “constrained” keys kS which allow to evaluate the PRF only on a
@@ -330,11 +347,8 @@ Our second contribution is concerned with another constrained PRF,
 due to Boneh and Waters, which allows for constrained keys for the more
 general class of bit-fixing functions. Their security proof also suffers from
 a 2N loss, which we show is inherent. We construct a meta-reduction
-which shows that any “simple” reduction of full security from a noninteractive hardness assumption must incur an exponential security loss.</p>
-                    
-					<a href="https://link.springer.com/content/pdf/10.1007/978-3-662-45608-8_5.pdf" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
+which shows that any “simple” reduction of full security from a noninteractive hardness assumption must incur an exponential security loss.</div>
+    </div>
 					</div>
                 </div>
             </div>
@@ -342,7 +356,13 @@ which shows that any “simple” reduction of full security from a noninteracti
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">On Selective-Opening Attacks Against Encryption Schemes: <br>Rafail Ostrovsky, Vanishree Rao, and Ivan Visconti</br></h4>
-                        <p class="card-text">Abstract. At FOCS’99, Dwork et al. put forth the notion of ‘selective-
+                         <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="http://web.cs.ucla.edu/~rafail/PUBLIC/164.pdf" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse11">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse11">
+        <div class="card card-body">At FOCS’99, Dwork et al. put forth the notion of ‘selective-
 -opening attacks’ (SOAs, for short). In the literature, security against
 such attacks has been formalized via indistinguishability-based and
 simulation-based notions, respectively called IND-SO-CPA security and
@@ -387,12 +407,8 @@ Fehr et al. showed a construction of a non-committing encryption
 scheme from trapdoor permutations and this scheme was, as noted
 by the authors, possibly not lossy. Our scheme amounts to the first
 construction of a non-committing encryption scheme that is provably
-not lossy.
-</p>
-                    <a href="http://web.cs.ucla.edu/~rafail/PUBLIC/164.pdf" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
-					
+not lossy.</div>
+    </div>
 					</div>
                 </div>
             </div> 
@@ -400,7 +416,13 @@ not lossy.
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Statistical Concurrent Non-malleable Zero Knowledge: <br>Claudio Orlandi, Rafail Ostrovsky, Vanishree Rao,Amit Sahai, and Ivan Visconti</br></h4>
-                        <p class="card-text">Abstract. The notion of Zero Knowledge introduced by Goldwasser,
+                        <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://link.springer.com/content/pdf/10.1007/978-3-642-54242-8_8.pdf" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse12">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse12">
+        <div class="card card-body">The notion of Zero Knowledge introduced by Goldwasser,
 Micali and Rackoff in STOC 1985 is fundamental in Cryptography. Motivated by conceptual and practical reasons, this notion has been explored under stronger definitions. We will consider the following two
 main strengthened notions.
 <br>Statistical Zero Knowledge: here the zero-knowledge property will
@@ -414,11 +436,8 @@ whether one can design a zero-knowledge protocol that satisfies both
 notions simultaneously.
 In this work we shed light on this question in a very strong sense.
 We show a statistical concurrent non-malleable zero-knowledge argument
-system for N P with a black-box simulator-extractor.</p>
-                    
-					 <a href="https://link.springer.com/content/pdf/10.1007/978-3-642-54242-8_8.pdf" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
+system for N P with a black-box simulator-extractor.</div>
+    </div>
 					</div>
                 </div>
             </div> 
@@ -426,7 +445,13 @@ system for N P with a black-box simulator-extractor.</p>
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Adaptively Secure, Universally Composable,Multiparty Computation in Constant Rounds: <br>Dana Dachman-Soled, Jonathan Katz, and Vanishree Rao</br></h4>
-                        <p class="card-text">Abstract. Cryptographic protocols with adaptive security ensure that
+                         <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://link.springer.com/content/pdf/10.1007/978-3-662-46497-7_23.pdf" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse13">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse13">
+        <div class="card card-body">Cryptographic protocols with adaptive security ensure that
 security holds against an adversary who can dynamically determine which
 parties to corrupt as the protocol progresses—or even after the protocol
 is finished. In the setting where all parties may potentially be corrupted,
@@ -436,11 +461,8 @@ running in constant rounds.
 Here, we show a constant-round, universally composable protocol for
 computing any functionality, tolerating a malicious, adaptive adversary
 corrupting any number of parties. Interestingly, our protocol can compute all functionalities, not just adaptively well-formed ones. The protocol relies on indistinguishability obfuscation, and assumes a common
-reference string.</p>
-                    
-					 <a href="https://link.springer.com/content/pdf/10.1007/978-3-662-46497-7_23.pdf" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
+reference string.</div>
+    </div>
 					</div>
                 </div>
             </div> 
@@ -448,7 +470,13 @@ reference string.</p>
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Adaptively Secure UC Constant Round Multi-Party Computation: <br>Ivan Damg˚ard, Antigoni Polychroniadou and Vanishree Rao</br></h4>
-                        <p class="card-text">Abstract. We present a universally composable multiparty computation protocol that is adaptively secure against corruption of n − 1 of the n players. The protocol has a constant number of
+                        <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.690.843&rep=rep1&type=pdf" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse14">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse14">
+        <div class="card card-body">We present a universally composable multiparty computation protocol that is adaptively secure against corruption of n − 1 of the n players. The protocol has a constant number of
 rounds and communication complexity that depends only on the number of inputs and outputs
 (and not on the size of the circuit to be computed securely). Such protocols were already known
 for honest majority. However, adaptive security and constant round was known to be impossible in
@@ -456,10 +484,8 @@ the stand-alone model and with black-box proofs of security. Here, we solve the 
 model using a set-up assumption. Our protocol is secure assuming LWE is hard and achieved by
 building a special type of crypto system we call equivocal FHE from LWE. We also build adaptively
 secure and constant round UC commitment and zero-knowledge proofs (of knowledge) based on
-LWE.</p>
-                     <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.690.843&rep=rep1&type=pdf" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
+LWE.</div>
+    </div>
 					</div>
                 </div>
             </div> 
@@ -467,7 +493,13 @@ LWE.</p>
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Adaptive Security of Constrained PRFs: <br>Georg Fuchsbauer, Momchil Konstantinov,Krzysztof Pietrzak and Vanishree Rao</br></h4>
-                        <p class="card-text">Abstract. Constrained pseudorandom functions have recently been introduced independently by Boneh and Waters (Asiacrypt’13), Kiayias et
+                        <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://link.springer.com/content/pdf/10.1007/978-3-662-45608-8_5.pdf" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse15">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse15">
+        <div class="card card-body">Constrained pseudorandom functions have recently been introduced independently by Boneh and Waters (Asiacrypt’13), Kiayias et
 al. (CCS’13), and Boyle et al. (PKC’14). In a standard pseudorandom
 function (PRF) a key k is used to evaluate the PRF on all inputs in the
 domain. Constrained PRFs additionally offer the functionality to delegate “constrained” keys kS which allow to evaluate the PRF only on a
@@ -489,19 +521,23 @@ Our second contribution is concerned with another constrained PRF,
 due to Boneh and Waters, which allows for constrained keys for the more
 general class of bit-fixing functions. Their security proof also suffers from
 a 2N loss, which we show is inherent. We construct a meta-reduction
-which shows that any “simple” reduction of full security from a noninteractive hardness assumption must incur an exponential security loss.</p>
-                    
-					  <a href="https://link.springer.com/content/pdf/10.1007/978-3-662-45608-8_5.pdf" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
-					</div>
+which shows that any “simple” reduction of full security from a noninteractive hardness assumption must incur an exponential 
+security loss.</div>
+    </div>
+	</div>
                 </div>
             </div> 
 			<div class="col-md-4 mb-3">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Adaptive Multiparty Non-interactive Key Exchange Without Setup In The Standard Model: <br>Vanishree Rao</br></h4>
-                        <p class="card-text">Abstract. introduced by Diffie and Hellman in 1976. They proposed the celebrated 2-party NIKE
+                         <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://eprint.iacr.org/2014/910.pdf" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse16">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse16">
+        <div class="card card-body">Introduced by Diffie and Hellman in 1976. They proposed the celebrated 2-party NIKE
 protocol and left open as a fascinating question, whether NIKE could be realized in the multiparty setting. NIKE has since then been an active area of research with an ultimate goal of
 obtaining best possible security in the multiparty setting. Although this has evaded researchers
 for many decades, advancements have been made through relaxations in multiple directions such
@@ -520,11 +556,8 @@ concrete construction of these pseudorandom functions using multilinear maps and
 approximations – the leveled-graded encoding schemes.
 Note that pseudorandom functions amount to an interactive assumption. We shall establish
 via a meta-reduction technique that, in natural settings, an interactive assumption is necessary
-(even with setup).</p>
-                    
-					  <a href="https://eprint.iacr.org/2014/910.pdf" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
+(even with setup).</div>
+    </div>
 					</div>
                 </div>
             </div>
@@ -534,7 +567,13 @@ via a meta-reduction technique that, in natural settings, an interactive assumpt
                         <h4 class="card-title">An Auto-review Tool for Model-Based Testing of SafetyCritical Systems:
 						<br>Atit Mishra , Manjunatha Rao, Chethan CU, Vanishree Rao, Yogananda Jeppu 
 , Nagaraj Murthy.</br></h4>
-                        <p class="card-text">Abstract. Verification of Test Procedures and Test Cases (TP, TC) is an
+                        <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://dl.acm.org/doi/pdf/10.1145/2489280.2489294?casa_token=5gWnyzU9BjUAAAAA:KPv41qyNeESaczRVSzi0UoBFtQ-Cd4mCRMo54ZowOK6deRLs-tdXSSKhTWL5wNrRyZ7kKHu5OrJiS70" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse17">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse17">
+        <div class="card card-body">Verification of Test Procedures and Test Cases (TP, TC) is an
 important process stage for fulfilling the RTCA/DO-178B/C
 compliance objective while developing software for safety critical
 flight control systems. Correctness of these results, their
@@ -557,10 +596,8 @@ are prepared. The paper presents the tool development process
 beginning with defining a library of Input/Output relation based
 functions for different control blocks, parser development and
 qualification activity that were performed by an independent
-testing team.</p>
-                      <a href="https://dl.acm.org/doi/pdf/10.1145/2489280.2489294?casa_token=5gWnyzU9BjUAAAAA:KPv41qyNeESaczRVSzi0UoBFtQ-Cd4mCRMo54ZowOK6deRLs-tdXSSKhTWL5wNrRyZ7kKHu5OrJiS70" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
+testing team.</div>
+    </div>
 					</div>
                 </div>
             </div>
@@ -568,7 +605,13 @@ testing team.</p>
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">On the (In)security of Fischlin’s Paradigm :<br>Prabhanjan Ananth, Raghav Bhaskar, Vipul Goyal, and Vanishree Rao</br></h4>
-                        <p class="card-text">Abstract. The Fiat-Shamir paradigm was proposed as a way to remove
+                         <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://link.springer.com/content/pdf/10.1007/978-3-642-36594-2_12.pdf" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse18">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse18">
+        <div class="card card-body">The Fiat-Shamir paradigm was proposed as a way to remove
 interaction from 3-round proof of knowledge protocols and derive secure
 signature schemes. This generic transformation leads to very efficient
 schemes and has thus grown quite popular. However, this transformation is proven secure only in the random oracle model. In FOCS 2003,
@@ -598,19 +641,22 @@ The techniques used in our work are quite unrelated to the ones used
 in the work of Goldwasser and Kalai. Our primary technique is to bind
 the protocol flow with the hash function if the code of the hash function
 is available. We believe that our ideas are of independent interest and
-maybe applicable in other related settings.</p>
-                    
-					  <a href="https://link.springer.com/content/pdf/10.1007/978-3-642-36594-2_12.pdf" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
-					</div>
+maybe applicable in other related settings.</div>
+    </div>
+			</div>
                 </div>
             </div>
 			<div class="col-md-4 mb-3">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Revisiting Lower and Upper Bounds for Selective Decommitments:<br> Rafail Ostrovsky, Vanishree Rao, Alessandra Scafuro, and Ivan Visconti</br></h4>
-                        <p class="card-text">Abstract. In [6,7], Dwork et al. posed the fundamental question of existence of commitment schemes that are secure against selective opening attacks (SOA, for short). In [2] Bellare, Hofheinz, and Yilek, and
+                        <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://link.springer.com/content/pdf/10.1007/978-3-642-36594-2_31.pdf" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse19">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse19">
+        <div class="card card-body">In [6,7], Dwork et al. posed the fundamental question of existence of commitment schemes that are secure against selective opening attacks (SOA, for short). In [2] Bellare, Hofheinz, and Yilek, and
 Hofheinz in [13] answered it affirmatively by presenting a scheme which
 is based solely on the non-black-box use of a one-way permutation needing a super-constant number of rounds. This result however opened other
 challenging questions about achieving a better round complexity and obtaining fully black-box schemes using underlying primitives and code of
@@ -624,11 +670,8 @@ on either parallel or concurrent SOA.
 In this work we first point out various issues in the claims of [23]
 that actually re-open several of the questions left open in [2,13]. Then,
 we provide new lower bounds and concrete constructions that produce a
-very different state-of-the-art compared to the one claimed in [23].</p>
-                    
-					  <a href="https://link.springer.com/content/pdf/10.1007/978-3-642-36594-2_31.pdf" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
+very different state-of-the-art compared to the one claimed in [23].</div>
+    </div>
 					</div>
                 </div>
             </div>
@@ -636,7 +679,13 @@ very different state-of-the-art compared to the one claimed in [23].</p>
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Round Optimal Blind Signatures:<br> Sanjam Garg, Vanishree Rao, Amit Sahai, Dominique Schröder,and Dominique Unruh</br></h4>
-                        <p class="card-text">Abstract. Constructing round-optimal blind signatures in the standard
+                         <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://link.springer.com/content/pdf/10.1007/978-3-642-22792-9_36.pdf" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse20">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse20">
+        <div class="card card-body">Constructing round-optimal blind signatures in the standard
 model has been a long standing open problem. In particular, Fischlin and
 Schröder recently ruled out a large class of three-move blind signatures
 in the standard model (Eurocrypt’10). In particular, their result shows
@@ -646,11 +695,8 @@ black-box reductions is hard. In this work we propose the first roundoptimal, i.
 (i.e., without assuming random oracles or the existence of a common
 reference string). Our scheme relies on the Decisional Diffie Hellman
 assumption and the existence of sub-exponentially hard 1-to-1 one way
-functions. This scheme is also secure in the concurrent setting.</p>
-                    
-					  <a href="https://link.springer.com/content/pdf/10.1007/978-3-642-22792-9_36.pdf" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
+functions. This scheme is also secure in the concurrent setting.</div>
+    </div>
 					</div>
                 </div>
             </div>
@@ -658,7 +704,13 @@ functions. This scheme is also secure in the concurrent setting.</p>
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Correlated-Input Secure Hash Functions: <br>Vipul Goyal, Adam O’Neill, and Vanishree Rao</br></h4>
-                        <p class="card-text">Abstract. We undertake a general study of hash functions secure under
+                         <p class="card-text">
+        <!-- Trigger Buttons HTML -->
+        <a href="https://link.springer.com/content/pdf/10.1007/978-3-642-19571-6_12.pdf" >Paper</a>
+        <button type="button" class="btn btn-primary ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse21">Abstract</button>
+    </p>
+	<div class="collapse" id="myCollapse21">
+        <div class="card card-body">We undertake a general study of hash functions secure under
 correlated inputs, meaning that security should be maintained when the
 adversary sees hash values of many related high-entropy inputs. Such
 a property is satisfied by a random oracle, and its importance is illustrated by study of the “avalanche effect,” a well-known heuristic in cryptographic hash function design. One can interpret “security” in different
@@ -670,11 +722,8 @@ efficient search on encrypted data. Our main construction achieves them
 (without random oracles) for inputs related by polynomials over the input space (namely Zp), based on corresponding variants of the q-Diffie
 Hellman Inversion assumption. Additionally, we show relations between
 correlated-input secure hash functions and cryptographic primitives secure under related-key attacks. Using our techniques, we are also able to
-obtain a host of new results for such related-key attack secure cryptographic primitives.</p>
-                    
-					 <a href="https://link.springer.com/content/pdf/10.1007/978-3-642-19571-6_12.pdf" class="text-center text-blue fs-underline fs-3 mb-3">
-                    Link to the Paper
-                </a>
+obtain a host of new results for such related-key attack secure cryptographic primitives.</div>
+    </div>
 					</div>
                 </div>
             </div>
