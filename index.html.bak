@@ -778,7 +778,7 @@ obtain a host of new results for such related-key attack secure cryptographic pr
                 <h1>Contact</h1>
 				<p> I am always excited to chat about cryptography and cybersecurity. You can write to me on my email or connect with me on Twitter or LinkedIn. Let’s together push boundaries of cybersecurity with the power of cryptography.</p>
 				
-                <img style="position: center;height: 50 vh; width = 50%" src="email.png" class="img-fluid" alt="Responsive image">
+                <img style="position: center;height: 50 vh; width = 50%; top=0; bottom =0" src="email.png" class="img-fluid" alt="Responsive image">
 				
 				<a class="btn btn-primary" style="background-color: #55acee;" href="https://twitter.com/vanishree_rao?s=03" role="button"
   ><i class="fab fa-twitter me-2"></i>Twitter</a>
