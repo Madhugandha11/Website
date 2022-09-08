@@ -1134,25 +1134,51 @@
                 <div class="col-12 mb-5"></div>
             </div>
         </div>
-        <div class="container">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                <div class="col-md-4 d-flex align-items-center">
-                    <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
-                </div>
-
-                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
-                                <use xlink:href="#twitter"></use>
-                            </svg></a></li>
-                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
-                                <use xlink:href="#instagram"></use>
-                            </svg></a></li>
-                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
-                                <use xlink:href="#facebook"></use>
-                            </svg></a></li>
-                </ul>
-            </footer>
+        <div class="container-fluid px-0 d-flex align-items-center"
+            style="height: 100vh;position: relative;overflow: hidden;background: black;z-index: 0;">
+            <img id="topImg" src="blockchain.jpg"
+                style="height: 400px;width:100%;position: absolute;right: -30%;z-index: 0;opacity: 1;"
+                data-0="transform:rotate(0deg) scale(2)" data-5000="transform:rotate(360deg) scale(4)">
+            <div class="px-3 px-md-5 mb-5" style="z-index: 2">
+                <!-- <p class="mb-2 text-white" style="letter-spacing: 6px;"><span class="fw-bold">MY BLOGS<span
+                        class="fw-bold"</p> -->
+                <h1 class="text-white fw-light"><span class="fw-bold">MY BLOGS</span> <br> ON CRYPTOGRAPHY <span
+                        class="fw-bold"><br>Thoughts, Insights and Opinions</br> on Its Past, Present and Future</span></h1>
+                <!-- <p class="text-white">24<sup>th</sup>-28<sup>th</sup> July 2022</p> -->
+                <!-- <a href="#about" class="btn btn-dark">Learn More</a>
+                <a href="#registration" class="btn btn-light fw-bold border-0 text-white"
+                    style="background: linear-gradient(-90deg, #2ff1ff, #ff5da9); background-size: 100% 100%;">Blogs Dropdown</a> -->
+            </div>
         </div>
+		
+		
+	<div class="container">
+	<div class="row mb-4">
+            <div class="col-12 text-center mt-5 mb-3">
+                <h1>Contact</h1>
+				<p> I am always excited to chat about cryptography and cybersecurity. You can write to me on my email or connect with me on Twitter or LinkedIn. Let’s together push boundaries of cybersecurity with the power of cryptography.</p>
+				
+                <img style="position: center;height: 50 vh; width = 50%; top=0; bottom =0" src="email.png" class="img-fluid" alt="Responsive image">
+				
+				<a class="btn btn-primary" style="background-color: #55acee;" href="https://twitter.com/vanishree_rao?s=03" role="button"
+  ><i class="fab fa-twitter me-2"></i>Twitter</a>
+  
+				<a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com/in/vanishree-rao/" role="button"
+  ><i class="fab fa-linkedin-in"></i>LinkedIn</a>
+            </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      
+						
+				<div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+            </div>
+            </ul>
+        </footer>
+    </div>
     </div>
 </body>
 <!-- Bootstrap JavaScript Libraries -->
