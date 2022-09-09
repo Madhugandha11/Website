@@ -33,9 +33,9 @@
                 style="height: 400px;width:100%;position: absolute;right: 0%;z-index: 0;opacity: 1;"
                 data-0="transform:rotate(0deg) scale(2.6)" data-5000="transform:rotate(360deg) scale(8)">
             <div class="px-3 px-md-5 text-center" style="z-index: 2">
-                <h1 class="text-white fw-light display-2"><span class="fw-bold">VANISHREE</span> RAO</h1>
+                <h1 class="text-white fw-light display-2"><span class="fw-bold">VANISHREE RAO</span> </h1>
                 <h3 class="text-white fw-bold">CRYPTOGRAPHER</h3>
-                <a href="#registration" class="btn btn-light fw-bold mt-3">LEARN MORE</a>
+                <!--<a href="#registration" class="btn btn-light fw-bold mt-3">LEARN MORE</a> -->
             </div>
         </div>
         <div class="container" style="position: relative;">
@@ -117,17 +117,16 @@
                 </div>
             </div>
 
-            <div class="row text-center mt-5 mb-3" data-bottom-top="opacity: 0; transform: scale(0.7)"
+            <div class="row text-center mt-5 mb-3"  data-bottom-top="opacity: 0; transform: scale(0.7)"
                 data-center-top="opacity: 1; transform: scale(1)">
                 <h1>PAPERS PUBLISHED</h1>
                 <p>Sample Filler Text</p>
             </div>
-            <div class="row mb-3">
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">Mina: Decentralized Cryptocurrency at Scale : Joseph Bonneau, Izaak
-                                Meckler, Vanishree Rao, and EvanShapiro
+            <div class="row mb-3" style="min-height: 350px;" >
+                <div class="col-md-4 mb-3 " >
+                    <div  class="card text-black bg-warning mb-3">
+                        <div class="card-body" >
+                            <h4 class="card-title">Mina: Decentralized Cryptocurrency at Scale
                             </h4>
 
                             <p class="card-text">
@@ -157,11 +156,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
+                <div class="col-md-4 mb-3 ">
+                    <div class=" card ">
                         <div class="card-body">
-                            <h4 class="card-title">Coda: Decentralized Cryptocurrency at Scale: Joseph Bonneau, Izaak
-                                Meckler, Vanishree Rao, and Evan Shapiro
+                            <h4 class="card-title">Coda: Decentralized Cryptocurrency at Scale
                             </h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
@@ -189,10 +187,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card text-black bg-info mb-3">
                         <div class="card-body">
-                            <h4 class="card-title">Secure Two-Party Feature Selection : <br>Vanishree Rao, Yunhui Long,
-                                Hoda
+                            <h4 class="card-title">Secure Two-Party Feature Selection 
                                 Eldardiry,Shantanu Rane, Ryan A. Rossi, and Frank Torres</br></h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
@@ -214,11 +211,10 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card text-black bg-warning mb-3">
                         <div class="card-body">
                             <h4 class="card-title">Achieving Differential Privacy in Secure Multiparty Data Aggregation
-                                Protocols on Star Networks :<br> Vincent Bindschaedler, Shantanu Rane, Alejandro E.
-                                Brito,Vanishree Rao,Ersin Uzun</br>
+                                Protocols on Star Networks
                             </h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
@@ -279,7 +275,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Adaptively Secure Multi-Party Computation from LWE (via Equivocal
-                                FHE):<br> Ivan Damgård, Antigoni Polychroniadou & Vanishree Rao</br> </h4>
+                                FHE) </h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a href="https://link.springer.com/chapter/10.1007/978-3-662-49387-8_9">Paper</a>
@@ -338,10 +334,10 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card text-black bg-info mb-3">
                         <div class="card-body">
                             <h4 class="card-title">Standard Security Does Not Imply Indistinguishability Under Selective
-                                Opening :<br> Dennis Hofheinz, Vanishree Rao & Daniel Wichs </br></h4>
+                                Opening </h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a href="https://link.springer.com/chapter/10.1007/978-3-662-53644-5_5">Paper</a>
@@ -388,12 +384,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card text-black bg-warning mb-3">
                         <div class="card-body">
-                            <h4 class="card-title">Adaptively-secure Multiparty Non-interactive Key Exchange <br> (A
-                                dissertation submitted in partial satisfaction
-                                of the requirements for the degree
-                                Doctor of Philosophy in Computer Science):</br><br> Vanishree Rao</br></h4>
+                            <h4 class="card-title">Adaptively-secure Multiparty Non-interactive Key Exchange </h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a
@@ -440,7 +433,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Multi-party Key Exchange for Unbounded Parties from
                                 Indistinguishability
-                                Obfuscation :<br> Dakshita Khurana, Vanishree Rao & Amit Sahai </br></h4>
+                                Obfuscation </h4>
 
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
@@ -468,12 +461,10 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card text-black bg-info mb-3">
                         <div class="card-body">
                             <h4 class="card-title">Adaptively Secure, Universally Composable,
-                                Multiparty Computation in Constant Rounds: Dana Dachman-Soled, Jonathan Katz,and
-                                Vanishree
-                                Rao
+                                Multiparty Computation in Constant Rounds
                             </h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
@@ -501,10 +492,10 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card text-black bg-warning mb-3">
                         <div class="card-body">
                             <h4 class="card-title">Standard Security Does Not Imply Indistinguishability Under Selective
-                                Opening:<br> Dennis Hofheinz, Vanishree Rao & Daniel Wichs </br></h4>
+                                Opening</h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a href="https://link.springer.com/chapter/10.1007/978-3-662-53644-5_5">Paper</a>
@@ -553,8 +544,7 @@
                 <div class="col-md-4 mb-3">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Adaptive Security of Constrained PRFs : <br>Georg Fuchsbauer, Momchil
-                                Konstantinov,Krzysztof Pietrzak, and Vanishree Rao</br></h4>
+                            <h4 class="card-title">Adaptive Security of Constrained PRFs </h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a
@@ -601,10 +591,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card text-black bg-info mb-3">
                         <div class="card-body">
-                            <h4 class="card-title">On Selective-Opening Attacks Against Encryption Schemes: <br>Rafail
-                                Ostrovsky, Vanishree Rao, and Ivan Visconti</br></h4>
+                            <h4 class="card-title">On Selective-Opening Attacks Against Encryption Schemes</h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a href="http://web.cs.ucla.edu/~rafail/PUBLIC/164.pdf">Paper</a>
@@ -663,11 +652,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card text-black bg-warning mb-3">
                         <div class="card-body">
-                            <h4 class="card-title">Statistical Concurrent Non-malleable Zero Knowledge: <br>Claudio
-                                Orlandi,
-                                Rafail Ostrovsky, Vanishree Rao,Amit Sahai, and Ivan Visconti</br></h4>
+                            <h4 class="card-title">Statistical Concurrent Non-malleable Zero Knowledge</h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a
@@ -705,7 +692,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Adaptively Secure, Universally Composable,Multiparty Computation in
-                                Constant Rounds: <br>Dana Dachman-Soled, Jonathan Katz, and Vanishree Rao</br></h4>
+                                Constant Rounds</h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a
@@ -732,10 +719,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card text-black bg-info mb-3">
                         <div class="card-body">
-                            <h4 class="card-title">Adaptively Secure UC Constant Round Multi-Party Computation: <br>Ivan
-                                Damg˚ard, Antigoni Polychroniadou and Vanishree Rao</br></h4>
+                            <h4 class="card-title">Adaptively Secure UC Constant Round Multi-Party Computation</h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a
@@ -770,10 +756,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card text-black bg-warning mb-3">
                         <div class="card-body">
-                            <h4 class="card-title">Adaptive Security of Constrained PRFs: <br>Georg Fuchsbauer, Momchil
-                                Konstantinov,Krzysztof Pietrzak and Vanishree Rao</br></h4>
+                            <h4 class="card-title">Adaptive Security of Constrained PRFs</h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a
@@ -824,7 +809,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Adaptive Multiparty Non-interactive Key Exchange Without Setup In The
-                                Standard Model: <br>Vanishree Rao</br></h4>
+                                Standard Model</h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a href="https://eprint.iacr.org/2014/910.pdf">Paper</a>
@@ -883,12 +868,10 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card text-black bg-info mb-3">
                         <div class="card-body">
                             <h4 class="card-title">An Auto-review Tool for Model-Based Testing of SafetyCritical
-                                Systems:
-                                <br>Atit Mishra , Manjunatha Rao, Chethan CU, Vanishree Rao, Yogananda Jeppu
-                                , Nagaraj Murthy.</br></h4>
+                                Systems</h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a
@@ -927,11 +910,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card text-black bg-warning mb-3">
                         <div class="card-body">
-                            <h4 class="card-title">On the (In)security of Fischlin’s Paradigm :<br>Prabhanjan Ananth,
-                                Raghav
-                                Bhaskar, Vipul Goyal, and Vanishree Rao</br></h4>
+                            <h4 class="card-title">On the (In)security of Fischlin’s Paradigm </h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a
@@ -990,9 +971,7 @@
                 <div class="col-md-4 mb-3">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Revisiting Lower and Upper Bounds for Selective Decommitments:<br>
-                                Rafail
-                                Ostrovsky, Vanishree Rao, Alessandra Scafuro, and Ivan Visconti</br></h4>
+                            <h4 class="card-title">Revisiting Lower and Upper Bounds for Selective Decommitments</h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a
@@ -1026,10 +1005,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card text-black bg-info mb-3">
                         <div class="card-body">
-                            <h4 class="card-title">Round Optimal Blind Signatures:<br> Sanjam Garg, Vanishree Rao, Amit
-                                Sahai, Dominique Schröder,and Dominique Unruh</br></h4>
+                            <h4 class="card-title">Round Optimal Blind Signatures</h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a
@@ -1054,12 +1032,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
+                <div class="col-md-4 mb-3" >
+                    <div class="card text-black bg-warning mb-3" >
                         <div class="card-body">
-                            <h4 class="card-title">Correlated-Input Secure Hash Functions: <br>Vipul Goyal, Adam
-                                O’Neill,
-                                and Vanishree Rao</br></h4>
+                            <h4 class="card-title">Correlated-Input Secure Hash Functions</h4>
                             <p class="card-text">
                                 <!-- Trigger Buttons HTML -->
                                 <a
@@ -1099,7 +1075,7 @@
 
 
 
-        <div class="container-fluid"
+       <!-- <div class="container-fluid"
             style="background: url('https://images.unsplash.com/photo-1660385381636-fc743a8c091d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc5fENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60') no-repeat;background-size: cover;">
             <div class="row mb-4 text-white">
                 <div class="col-12 text-center mt-5 mb-3">
@@ -1133,7 +1109,7 @@
                 </div>
                 <div class="col-12 mb-5"></div>
             </div>
-        </div>
+        </div>-->
         <div class="container-fluid px-0 d-flex align-items-center"
             style="height: 100vh;position: relative;overflow: hidden;background: black;z-index: 0;">
             <img id="topImg" src="blockchain.jpg"
@@ -1142,13 +1118,47 @@
             <div class="px-3 px-md-5 mb-5" style="z-index: 2">
                 <!-- <p class="mb-2 text-white" style="letter-spacing: 6px;"><span class="fw-bold">MY BLOGS<span
                         class="fw-bold"</p> -->
-                <h1 class="text-white fw-light"><span class="fw-bold">MY BLOGS</span> <br> ON CRYPTOGRAPHY <span
-                        class="fw-bold"><br>Thoughts, Insights and Opinions</br> on Its Past, Present and Future</span></h1>
+                <h1 class="text-white fw-light"><span class="fw-bold">MY BLOGS</span> <!--<br> ON CRYPTOGRAPHY <span
+                        class="fw-bold"><br>Thoughts, Insights and Opinions</br> on Its Past, Present and Future--></span></h1>
                 <!-- <p class="text-white">24<sup>th</sup>-28<sup>th</sup> July 2022</p> -->
                 <!-- <a href="#about" class="btn btn-dark">Learn More</a>
                 <a href="#registration" class="btn btn-light fw-bold border-0 text-white"
-                    style="background: linear-gradient(-90deg, #2ff1ff, #ff5da9); background-size: 100% 100%;">Blogs Dropdown</a> -->
+                
+				style="background: linear-gradient(-90deg, #2ff1ff, #ff5da9); background-size: 100% 100%;">Blogs Dropdown</a> -->
+            <div class="row mb-4 text-white">
+                <div class="col-12 text-center mt-5 mb-3">
+                   <!-- <h1>My System</h1>
+                    <p>Sample Filler Text</p>-->
+                </div>
+                <div class="col-12 text-center">
+                    <a href="https://eng-blog.o1labs.org/posts/ssn-blog/" class="text-center text-white fs-underline fs-3 mb-3">
+                        zkOracles: A Savior against Large-scale Data Hacks
+                    </a>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="https://minaprotocol.com/blog/how-ouroboros-samasika-upholds-minas-goals-of-decentralization" class="text-center text-white fs-underline fs-3 mb-3">
+                        How Ouroboros Samasika Upholds Mina’s Goals of Decentralization
+                    </a>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="https://minaprotocol.com/blog/a-more-efficient-approach-to-zero-knowledge-for-plonk" class="text-center text-white fs-underline fs-3 mb-3">
+                        A More Efficient Approach to Zero Knowledge for PLONK
+                    </a>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="https://minaprotocol.com/blog/solving-the-scalability-trilemma" class="text-center text-white fs-underline fs-3 mb-3">
+                        Solving the Blockchain Scalability Trilemma
+                    </a>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="https://minaprotocol.com/blog/zero-knowledge-proofs-an-intuitive-explanation" class="text-center text-white fs-underline fs-3 mb-3">
+                       Zero-knowledge Proofs: An Intuitive Explanation
+                    </a>
+                </div>
+                <div class="col-12 mb-5"></div>
             </div>
+			
+			</div>
         </div>
 		
 		
