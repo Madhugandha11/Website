@@ -1,72 +1,71 @@
 <!doctype html>
-<html>
-	<head>
-		<meta name="viewport" content= "with=device-width,initial-scale=1.0">
-		<link rel="stylesheet" href="blog1.css">
-		<title> Vaniahree Rao Blogs </title>
+<html lang="en">
+
+<head>
+    <title>Vanishree ma'am's Website</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif; 
+        }
+    </style>
 </head>
-	<body>
 
-<div class="header">
-  <h2>Blog Name</h2>
-</div>
+<div class="container">
 
-<div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h2>Cloud Security can’t be ignored anymore, thanks to Millennials!</h2>
-      <h5>Published on February 29, 2016</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Staying relevant and staying close to customers in the rapidly changing marketplace is one of the biggest challenges for businesses. Businesses do so by collecting massive amount of data on consumer behavior, and mining actionable insights that can help them steer direction and optimize marketing strategies for different market segments. Business Analytics is a crucial component for any successful business in this competitive economy.
-
-However, big data analytics requires massive storage, network, and computing capabilities with fluctuating demands; capital expenditures to house these capabilities are enormous, and predicting and therefore managing the maximum demand to keep up with customers can be impractical. On the other hand, cloud computing offers scalability while significantly reducing operational costs. This has forced companies to migrate to the cloud.
-
-Industries such as healthcare, IT services, education, and retail, where computing has not been traditionally at the core of the value proposition, understand that they must embrace cloud-computing solutions to reach and retain customers. This trend is being driven by the consumer habits of millennials, the fastest growing consumer demographic in the world. Habits and preferences of millennial consumers are around the digital world in most industries – from retail to financial and medical industries, for, the digital world offers them ease of accessibility, convenience, and efficiency. Millennial Disruption Index points out that banking will be immensely transformed by millennial preferences, and this is reflected in reality with the rise of FinTech companies. Healthy industry too has embraced digitization, by adopting Electronic Health Records, home monitoring systems and wearables.
-
-Unfortunately, importance of security to protect cloud data has been somewhat ignored. Companies tend to underestimate risk and recovery costs after a cyber attack. Using ill-suited security solutions can hinder productivity of a company's business-critical tasks. Additionally, cloud security still lacks global standards, which can hinder interoperability between private and public clouds. Many companies that adopt cloud security resort to proprietary solutions from Microsoft, IBM, and other major providers.
-
-The increased trend in cloud computing, without solid and proven security mechanisms, is met with an ever-increasing rate of data breaches. Average cost to remediate data breaches in 2015 was estimated to a whopping $3.8 million. Additionally, victim companies are subjected to severe public censure, resulting in a harmful brand reputation, costly downtime before full recovery, and expensive lawsuits.
-
-Various nationally reported security breaches, such as those of Target, Ashley Madison, Anthem, and many more, have provided a wake-up call to companies who have been insouciant about the importance of cloud security, elevating the importance of security to the number one spot on every CIO’s must-do list as reported in the recent survey conducted by National Association of State Chief Information Officers (NASCIO). There has been a quick upsurge in demand for security, and VCs of the Silicon Valley and beyond have been quick to pump in billions of dollars into Cybersecurity startup companies. From 2011 to 2015, the investment has grown from $1.1B to $3.8B, a 235% growth in just 5 years.
-
-Despite bright forecasts following huge investments in the industry, Promising cybersecurity companies suffered surprising losses in 2015 – Imperva by 46.44%, Barracuda by 44.57%, Fireeye by 42.04%, Rapid7 by 37.48%, Fortinet by 23.52%, and Cyberark by 22.09%. This dip created ripples of suspicion that all the jazz might just be a bubble. 
-
-In taking a holistic look at the market, however, should help ease suspicion: More startups are only going to mushroom and migrate to the cloud, and millennials will continue to demand increased digitization across all industries within the next decade. In parallel, hackers will continue to exploit digital assets. Coupled with this, the ever-increasing awareness among companies towards the necessity of security indicates that the demand for cyber security is only going to increase, and the industry is well poised to succeed.
-
-Thanks to digital preferences of millennials, increased digitization and cloudification will drive the demand for cloud security. Ease of access and the other benefits brought about by digitization, coupled with a better sense of security brought about by innovation and adoption of strong cloud-security defense mechanisms will make the world a better place.</p>
+		<div class="row"  >
+		<div class="row text-center ">
+            <h1>zkOracles: A Savior against Large-scale Data Hacks</h1>
+            <p> Apr 15, 2022</p>
+        </div>
+	<div class="row ">
+  <div class="col">
+    <div class="card w-100 h-100">
+      <img src="zk.jpeg" class="card-img-top"
+        alt="Skyscrapers" />
+      <div class="card-body">
+        <h5 class="card-title text-center "><span class="fw-bold">Here is a great example of a multi-billion-dollar problem in Web2 that Web3 can solve.</span></h5>
+		
+        <p class="card-text">
+        <h6><span class="fw-bold"> The Web2 World</span> </h6>
+		The status quo is that personal sensitive information such as National Identification Numbers (which are SSNs in the US and NINs in the UK) travels all around various institutions, making the institutions a luring target for hackers. These institutions spend billions of dollars to – at best weakly – protect that data treasure. Once they get hacked, they spend another fortune to mollify their customers, pay regulatory fines and apply marketing bandaids on the large brand-image wounds.
+        </p>
+		
+		<p class="card-text">
+		<h6> <span class="fw-bold">The Web3 World, powered by Mina </span></h6>
+		Web3 has a solution to this problem. The idea is to avoid sharing such sensitive information across various institutions, but to to share attestations of your sensitive information, without sharing the information itself using zero-knowledge proofs (ZKPs). Read on to see how that exactly works.
+		</p>
+		
+		<p class ="card-text">
+		<h6><span class="fw-bold">Recalling ZKPs </span></h6>
+		Before we proceed, let’s recall the power of ZKPs. They provide two powers – privacy and succinctness. In our case, we will mainly use the privacy power. Specifically, ZKPs allow us to prove that we know something without revealing it. The idea here will be to prove what the institutions need to know while keeping the sensitive information private.<br>
+	  To describe further, let’s consider a the following example involving banks. For almost every task that involves a bank, one needs to share their National Identification Numbers with the bank. Let’s say, you are trying to obtain a loan from the bank. In the Web2 world, the bank needs your National Identification Numbers to check with the credit bureaus about your creditworthiness. An important aspect to note is that you cannot simply obtain your credit score (a measure of creditworthiness that exists in many other countries) from a credit bureau and create some proof of the receipt. This is because of how Web2, specifically the TLS protocol, is designed; the server does not sign the HTTP response and hence a third party cannot verify the integrity/provenance of the data.</br><br>
+	  Let’s see how we avoid sharing National Identification Numbers with the bank in the Web3 world.</br>
+	  
+	  
+	  <p class="card-text">
+	  <h6> <span class="fw-bold">Introducing zkOracles</span></h6>
+	  A special feature of the zkApps platform (which will soon be active) on Mina called \emph{zkOracles}, is designed to solve this very problem. In the running example, the bank would deploy a zkOracles smart contract that can verify the data sent by clients (by verifying ZKPs). The client generates the ZKP as follows.<br>
+	  Recall that the main requirement is that, when a client obtains data from a server, we somehow need to make that data authenticated so that the zkOracle can verify it. To this end, there would be one or more “notaries” who would oversee the communication between the client and the server. However, the notaries would not learn anything about the data exchanged between client and server. (In fact, one may even choose to hide the server identity from the notaries.) The notaries would then sign (i.e., notarize) the transcript. Then, the client can create a ZKP that proves that the encrypted data came from the correct server (by verifying the certificate used in the TLS protocol), some predicate about the encrypted data (in the transcript) and that the encrypted data was notarized.</br> <br>
+	  Reverting to the running example, once the bank deploys the smart contract, a client can obtain her credit score from a credit bureau through an HTTP connection. Then, without revealing the sensitive information the client can prove that she obtained a credit score x from the bureau.</br><br>
+	  As mentioned above, using zkOracles, one may execute tasks without revealing sensitive information to various entities and thereby counter identity thefts due to large database hacks.</br>
+	  </div>
+      <div class="card-footer text-center">
+        <a href="index.html" class="btn btn-secondary btn-lg btn-block">Visit Website</a>
+      </div>
+	  
+	  
     </div>
-  
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>Published by</h2>
-      <!--<div class="fakeimg" style="height:100px;">Image</div>-->
-      <p>Vanishree Rao</p>
-    </div>
-    <!--<div class="card">
-      <h3>More Blogs</h3>
-      <div class="fakeimg">Image</div><br>
-      <div class="fakeimg">Image</div><br>
-      <div class="fakeimg">Image</div>
-    </div>-->
-    
   </div>
-</div>
-
-<div class="footer">
- 
-                <h1>Contact</h1>
-				<p> I am always excited to chat about cryptography and cybersecurity. You can write to me on my email or connect with me on Twitter or LinkedIn. Let’s together push boundaries of cybersecurity with the power of cryptography.</p>
-				
-                <img style="position: center;height: 50 vh; width = 50%; top=0; bottom =0" src="email.png" class="img-fluid" alt="Responsive image">
-				
-				<a class="btn btn-primary" style="background-color: #55acee;" href="https://twitter.com/vanishree_rao?s=03" role="button"
-  ><i class="fab fa-twitter me-2"></i>Twitter</a>
   
-				<a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com/in/vanishree-rao/" role="button"
-  ><i class="fab fa-linkedin-in"></i>LinkedIn</a>
-            </div>
   
-</div>
-
-</body>
-</html>

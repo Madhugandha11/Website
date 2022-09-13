@@ -41,7 +41,7 @@
         <div class="container" style="position: relative;">
             <div class="row text-center my-5" data-bottom-top="opacity: 0; transform: scale(0.7)"
                 data-center-top="opacity: 1; transform: scale(1)">
-                <h1>My Journey</h1>
+                <h1>MY JOURNEY</h1>
             </div>
             <div class="row" data-bottom-top="opacity: 0" data-center-top="opacity: 1">
                 <div class="col-md-12">
@@ -79,8 +79,8 @@
             </div>
             <div class="row text-center mt-5 mb-3" data-bottom-top="opacity: 0; transform: scale(0.7)"
                 data-center-top="opacity: 1; transform: scale(1)">
-                <h1>My Interests</h1>
-                <p>Sample Filler Text</p>
+                <h1>MY INTERESTS</h1>
+                <!--<p>Sample Filler Text</p>-->
             </div>
             <div class="row text-center mt-5 mb-3" data-bottom-top="opacity: 0" data-center-top="opacity: 1">
                 <div id="carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
@@ -120,7 +120,7 @@
             <div class="row text-center mt-5 mb-3"  data-bottom-top="opacity: 0; transform: scale(0.7)"
                 data-center-top="opacity: 1; transform: scale(1)">
                 <h1>PAPERS PUBLISHED</h1>
-                <p>Sample Filler Text</p>
+               <!-- <p>Sample Filler Text</p>-->
             </div>
             <div class="row mb-3"  >
                 <div class="col-md-4 mb-3 " >
@@ -1075,98 +1075,79 @@
 
 
 
-       <div class="container-fluid"
-            style="background: url('https://images.unsplash.com/photo-1660385381636-fc743a8c091d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc5fENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60') no-repeat;background-size: cover;">
-            <div class="row mb-4 text-white">
-                <div class="row mb-4 text-white">
-                <div class="col-12 text-center mt-5 mb-3">
-                    <h1>My BLOGS</h1>
-                    <p>Sample Filler Text</p>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="https://eng-blog.o1labs.org/posts/ssn-blog/" class="text-center text-white fs-underline fs-3 mb-3">
-                        zkOracles: A Savior against Large-scale Data Hacks
-                    </a>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="https://minaprotocol.com/blog/how-ouroboros-samasika-upholds-minas-goals-of-decentralization" class="text-center text-white fs-underline fs-3 mb-3">
-                        How Ouroboros Samasika Upholds Mina’s Goals of Decentralization
-                    </a>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="https://minaprotocol.com/blog/a-more-efficient-approach-to-zero-knowledge-for-plonk" class="text-center text-white fs-underline fs-3 mb-3">
-                        A More Efficient Approach to Zero Knowledge for PLONK
-                    </a>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="https://minaprotocol.com/blog/solving-the-scalability-trilemma" class="text-center text-white fs-underline fs-3 mb-3">
-                        Solving the Blockchain Scalability Trilemma
-                    </a>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="https://minaprotocol.com/blog/zero-knowledge-proofs-an-intuitive-explanation" class="text-center text-white fs-underline fs-3 mb-3">
-                       Zero-knowledge Proofs: An Intuitive Explanation
-                    </a>
-                </div>
-                <div class="col-12 mb-5"></div>
-            </div>
-			
-			
-       <!-- <div class="container-fluid px-0 d-flex align-items-center"
-            style="height: 100vh;position: relative;overflow: hidden;background: black;z-index: 0;">
-            <img id="topImg" src="blockchain.jpg"
-                style="height: 400px;width:100%;position: absolute;right: -30%;z-index: 0;opacity: 1;"
-                data-0="transform:rotate(0deg) scale(2)" data-5000="transform:rotate(360deg) scale(4)">
-            <div class="px-3 px-md-5 mb-5" style="z-index: 2">
-                <!-- <p class="mb-2 text-white" style="letter-spacing: 6px;"><span class="fw-bold">MY BLOGS<span
-                        class="fw-bold"</p> 
-                <h1 class="text-white fw-light"><span class="fw-bold">MY BLOGS</span> <!--<br> ON CRYPTOGRAPHY <span
-                        class="fw-bold"><br>Thoughts, Insights and Opinions</br> on Its Past, Present and Future</span></h1>-->
-                <!-- <p class="text-white">24<sup>th</sup>-28<sup>th</sup> July 2022</p> -->
-                <!-- <a href="#about" class="btn btn-dark">Learn More</a>
-                <a href="#registration" class="btn btn-light fw-bold border-0 text-white"
-                
-				style="background: linear-gradient(-90deg, #2ff1ff, #ff5da9); background-size: 100% 100%;">Blogs Dropdown</a> 
-            <div class="row mb-4 text-white">
-                <div class="col-12 text-center mt-5 mb-3">-->
-                   <!-- <h1>My System</h1>
-                    <p>Sample Filler Text</p>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="https://eng-blog.o1labs.org/posts/ssn-blog/" class="text-center text-white fs-underline fs-3 mb-3">
-                        zkOracles: A Savior against Large-scale Data Hacks
-                    </a>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="https://minaprotocol.com/blog/how-ouroboros-samasika-upholds-minas-goals-of-decentralization" class="text-center text-white fs-underline fs-3 mb-3">
-                        How Ouroboros Samasika Upholds Mina’s Goals of Decentralization
-                    </a>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="https://minaprotocol.com/blog/a-more-efficient-approach-to-zero-knowledge-for-plonk" class="text-center text-white fs-underline fs-3 mb-3">
-                        A More Efficient Approach to Zero Knowledge for PLONK
-                    </a>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="https://minaprotocol.com/blog/solving-the-scalability-trilemma" class="text-center text-white fs-underline fs-3 mb-3">
-                        Solving the Blockchain Scalability Trilemma
-                    </a>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="https://minaprotocol.com/blog/zero-knowledge-proofs-an-intuitive-explanation" class="text-center text-white fs-underline fs-3 mb-3">
-                       Zero-knowledge Proofs: An Intuitive Explanation
-                    </a>
-                </div>
-                <div class="col-12 mb-5"></div>
-            </div>
-			
-			</div>
-        </div>-->
+<div class="container">
+
+		<div class="row mb-4"  >
+		<div class="row text-center mt-5 mb-4" data-bottom-top="opacity: 0; transform: scale(0.7)"
+                data-center-top="opacity: 1; transform: scale(1)">
+            <h1>MY BLOGS</h1>
+            <!--<p>Sample Filler Text</p>-->
+        </div>
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="zk.jpeg" class="card-img-top"
+        alt="Skyscrapers" />
+      <div class="card-body">
+        <h5 class="card-title">zkOracles: A Savior against Large-scale Data Hacks</h5>
+        <p class="card-text">
+        Published on Apr 15, 2022 
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"><a href="https://eng-blog.o1labs.org/posts/ssn-blog/" class="btn btn-primary">Visit Blog</a></small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="blog2.jpg" class="card-img-top"
+        alt="Los Angeles Skyscrapers" />
+      <div class="card-body">
+        <h5 class="card-title">End-to-end Encryption, Today -- Loophole Closed or Moved?</h5>
+        <p class="card-text">Published on April 23, 2016
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"><a href="https://www.linkedin.com/pulse/end-to-end-encryption-today-loophole-closed-moved-vanishree-rao/" class="btn btn-primary">Visit Blog</a></small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="blog3.jpg" class="card-img-top"
+        alt="Palm Springs Road" />
+      <div class="card-body">
+        <h5 class="card-title">Differential Privacy vs. End-to-end Encryption – It’s Privacy vs. Privacy!</h5>
+        <p class="card-text">
+          Published on October 14, 2016
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"><a href="https://www.linkedin.com/pulse/differential-privacy-vs-end-to-end-encryption-its-vanishree-rao/" class="btn btn-primary"> Visit Blog</a></small>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+</div>	
+</div>	
+
+<div class="container">
+
+		<div class="row mb-4"  >
+		<div class="row text-center mt-5 mb-4">
+            <a href="blog.html" class="btn btn-secondary btn-lg btn-block">Find more blogs here</a>
+            <!--<p>Sample Filler Text</p>-->
+        </div>
+</div>		
 		
 	<div class="container">
 	<div class="row mb-4">
-            <div class="col-12 text-center mt-5 mb-3">
-                <h1>Contact</h1>
+            <div class="col-12 text-center mt-5 mb-3" data-bottom-top="opacity: 0; transform: scale(0.7)"
+                data-center-top="opacity: 1; transform: scale(1)">
+                <h1>CONTACT</h1>
 				<p> I am always excited to chat about cryptography and cybersecurity. You can write to me on my email or connect with me on Twitter or LinkedIn. Let’s together push boundaries of cybersecurity with the power of cryptography.</p>
 				
                 <img style="position: center;height: 50 vh; width = 50%; top=0; bottom =0" src="email.png" class="img-fluid" alt="Responsive image">
