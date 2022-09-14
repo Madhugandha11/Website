@@ -21,6 +21,8 @@
     </style>
 </head>
 
+<body>
+
 <div class="container">
 
 		<div class="row"  >
@@ -51,7 +53,7 @@
 		Before we proceed, let’s recall the power of ZKPs. They provide two powers – privacy and succinctness. In our case, we will mainly use the privacy power. Specifically, ZKPs allow us to prove that we know something without revealing it. The idea here will be to prove what the institutions need to know while keeping the sensitive information private.<br>
 	  To describe further, let’s consider a the following example involving banks. For almost every task that involves a bank, one needs to share their National Identification Numbers with the bank. Let’s say, you are trying to obtain a loan from the bank. In the Web2 world, the bank needs your National Identification Numbers to check with the credit bureaus about your creditworthiness. An important aspect to note is that you cannot simply obtain your credit score (a measure of creditworthiness that exists in many other countries) from a credit bureau and create some proof of the receipt. This is because of how Web2, specifically the TLS protocol, is designed; the server does not sign the HTTP response and hence a third party cannot verify the integrity/provenance of the data.</br><br>
 	  Let’s see how we avoid sharing National Identification Numbers with the bank in the Web3 world.</br>
-	  
+	  </p>
 	  
 	  <p class="card-text">
 	  <h6> <span class="fw-bold">Introducing zkOracles</span></h6>
@@ -59,6 +61,7 @@
 	  Recall that the main requirement is that, when a client obtains data from a server, we somehow need to make that data authenticated so that the zkOracle can verify it. To this end, there would be one or more “notaries” who would oversee the communication between the client and the server. However, the notaries would not learn anything about the data exchanged between client and server. (In fact, one may even choose to hide the server identity from the notaries.) The notaries would then sign (i.e., notarize) the transcript. Then, the client can create a ZKP that proves that the encrypted data came from the correct server (by verifying the certificate used in the TLS protocol), some predicate about the encrypted data (in the transcript) and that the encrypted data was notarized.</br> <br>
 	  Reverting to the running example, once the bank deploys the smart contract, a client can obtain her credit score from a credit bureau through an HTTP connection. Then, without revealing the sensitive information the client can prove that she obtained a credit score x from the bureau.</br><br>
 	  As mentioned above, using zkOracles, one may execute tasks without revealing sensitive information to various entities and thereby counter identity thefts due to large database hacks.</br>
+	  </p>
 	  </div>
       <div class="card-footer text-center">
         <a href="index.html" class="btn btn-secondary btn-lg btn-block">Visit Website</a>
@@ -68,4 +71,5 @@
     </div>
   </div>
   
-  
+  </body>
+</html>

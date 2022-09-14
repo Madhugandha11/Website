@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Vanishree ma'am's Website</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif; 
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+		<div class="row"  >
+		<div class="row text-center ">
+            <h1>How Ouroboros Samasika Upholds Mina’s Goals of Decentralization</h1>
+            <p> March 18, 2021</p>
+        </div>
+	<div class="row ">
+  <div class="col">
+    <div class="card w-100 h-100">
+      <img src="mina1.png" class="card-img-top"
+        alt="" />
+      <div class="card-body">
+        
+		
+        <p class="card-text">
+        <h6><span class="fw-bold"> Mina for Decentralization, For Real</span> </h6>
+		Bitcoin and other cryptocurrencies / blockchain protocols were initially designed with the goal of decentralization. The core idea is to completely democratize blockchain verification. While initially the protocols achieved a good degree of decentralization, where anyone could download and verify the blockchain, as time has passed, the blockchains have become exorbitantly large thereby forcing many with limited resources to stop participating. As a result, the task of verification is now only in the hands of a few parties/organizations with large enough resources. For concreteness, at the time of this writing, Bitcoin’s blockchain is over 300 GB.
+
+<br>Mina’s approach to decentralization is to squash the entire blockchain into just a few kilobytes.</br>
+		</p>
+		
+		<p class="card-text">
+		<h6> <span class="fw-bold">The Role of Consensus Protocols in Achieving Decentralization</span> </h6>
+		Recall that a consensus mechanism is the one that determines what transactions get appended to the blockchain next and who gets to do it.<br>
+		Arguably, consensus is the most fundamental determinant of how decentralized a blockchain is. In fact, to drive home the point, consider the extreme of a consensus mechanism that always chooses the same person to get to add to the blockchain.</br><br>
+		In light of this, Mina adopted Ouroboros Samasika as its consensus mechanism, for Samasika archives a strong decentralization.</br>
+		</p>
+		
+		<p class="card-text">
+		<h6><span class="fw-bold"> Decentralization Through Ouroboros Samasika </span></h6>
+		Ouroboros Samasika (hereafter referred to as Samasika) is the first succinct proof-of-stake consensus mechanism with the strong blockchain decentralization properties described later below.<br>
+		Most consensus mechanisms resort to some level of centralization. In fact, designing one that is strongly decentralized is challenging. For instance, whenever there are long adversarial forks that are equal in lengths, it is desirable that the protocol does not rely on a centralized party for advice on the honest chain, but instead choose the right chain algorithmically. Samasika, instead, achieves strong decentralization even in succinct settings (i.e., by utilizing limited amounts of information). Below are the decentralization properties satisfied by Samasika.</br>
+		
+		<br><span class="fw-bold">SELF-BOOTSTRAP.</span>Consider a newly joining party or a party that had been offline for some time. When it comes online, let’s say, there are two chains of equal length. Clearly, the typical longest chain rule will not work in this case. As mentioned above, protocols typically rely on a central entity to provide “a checkpointing service”, wherein, it provides advice on the active chain. However, it is at times of adversarial presence that it is crucial to not rely on a central entity, lest that entity itself be the adversary.</br>
+		<br>Samasika, instead, relies on the protocol itself. Those parties can discern the active chain, by bootstrapping from a copy of the Genesis block. Specifically, we achieve this by having two chain selection rules. The first rule is the simple longest chain rule which is applied whenever the fork has occurred recently. This rule works for short forks, because an adversary would not have had enough time to create a longer chain, assuming honest majority. Secondly, we have a special chain selection rule that is applied when the fork is far back in history. It is possible that an adversary has somehow made her chain longer than the honest one over time. Therefore, the simple longest chain rule would not work in this case. Instead, the special rule compares a succinct summary of each chain, which encapsulates the chain information soon after the fork. In effect, the case reduces the short-range fork case in that way. Note that we do need a succinct summary, since the blockchain is in the succinct setting and cannot demand accessing information from arbitrary time in the past.</br>
+		
+		<br><span class="fw-bold">DYNAMIC AVAILABILITY. </span>Decentralization, in a way, means reducing constraints on parties to participate. One other typical constraint in the existing consensus mechanism is that the parties be active at least at certain times in the protocol. Unfortunately, this precludes those parties who do not have a reliable connection to the Internet or power supply. In fact, nodes may even go offline due to network issues.</br>
+		<br>Samasika embraces such imperfections and offers security despite dynamically varying participation. The core challenge is to fairly sample block producers despite varying stake distributions (i.e., probability of being a block producer must be proportional to its stake). The solution is to divide time into chunks called ‘epochs’ and to ensure independent randomness across them through the power of locally computed cryptographic functions called ‘verifiable random functions (VRFs)’.</br>
+		
+		<br><span class="fw-bold">UNCAPPED PARTICIPATION.</span> A critically important property of our protocol is that there is no limit on participation by nodes in any manner, unlike other protocols that run BFT-based (Byzantine Fault Tolerance-based) or BA-based (Byzantine Agreement-based) protocols. For example, in Tendermint which is a BFT protocol, one needs to limit the number of validators – the nodes that participate in the consensus protocol by broadcasting cryptographic signatures (or the so-called votes), to agree upon the next block. It is only a few hundred. Limiting this is necessary for the protocol to limit communication complexity. As another example, Algorand, which is a BA protocol, needs to limit the number of relay nodes. The participation nodes that participate in the consensus protocol by proposing and voting on blocks are mostly connected to relay nodes; therefore, failure of such nodes can create certain undesirable bottlenecks. Furthermore, the relay nodes when chosen in a centralized manner can pose yet another centralization risk.</br>
+		<br>Ouroboros Samasika does not impose such restrictions on participation in order to ensure and enable decentralization. This is achieved by not relying on BFT mechanisms.</br>
+		
+		<br><span class="fw-bold">SUCCINCTNESS.</span> As mentioned above, Samasika’s chain selection rules utilize only limited amounts of local information. This allows for it to be compatible with the succinct blockchain setting, which in turn supports decentralization.</br>
+		
+		<br><span class="fw-bold">UNIVERSAL COMPOSABILITY. </span> Liquidity is an important aspect of cryptocurrencies. Atomic swaps mean that a given blockchain protocol interacts with other protocols. Hence, it is crucial that protocol security is designed not in a standalone setting, but in the realistic setting where protocols may interact/compose.</br>
+		<br> Cryptography offers the framework called “universal composability” (UC) that formalizes security in such settings. Samasika is proven secure in the universal composability setting. This is mainly achieved by careful choice of underlying sub-protocols and ensuring that each of them is also UC secure.</br>
+		
+		<br>Finally, notably, the protocol does not need explicit slashing, since the protocol already enforces the required level of correctness.</br>
+		
+		</p>
+		
+		<p class="card-text">
+		In summary, Ouroboros Samasika archives succinctness while achieving decentralization in all dimensions, including not succumbing to the so-called weak subjectivity of proof-of-stake protocols. Moreover, it strongly complements Mina’s succinct blockchain, thereby eliminating factors that hinder decentralization and enabling mass participation.
+		</p>
+		
+		</div>
+      <div class="card-footer text-center">
+        <a href="index.html" class="btn btn-secondary btn-lg btn-block">Visit Website</a>
+      </div>
+	  
+	  
+    </div>
+  </div>
+  </div>
+		
+</body>
+</html>		
