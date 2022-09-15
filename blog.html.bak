@@ -21,6 +21,8 @@
     </style>
 </head>
 
+<body>
+
 <div class="container">
 
 		<div class="row mb-4"  >
@@ -58,7 +60,7 @@
         </p>
       </div>
       <div class="card-footer">
-        <small class="text-muted"><a href="https://minaprotocol.com/blog/how-ouroboros-samasika-upholds-minas-goals-of-decentralization" class="btn btn-primary"> Visit Blog</a></small>
+        <small class="text-muted"><a href="blog2.html" class="btn btn-primary"> Visit Blog</a></small>
       </div>
     </div>
   </div>
@@ -115,6 +117,7 @@
     </div>
   </div>
   
+     
   
    <div class="col">
     <div class="card h-100">
@@ -127,10 +130,27 @@
         </p>
       </div>
       <div class="card-footer">
-        <small class="text-muted"><a href="https://www.linkedin.com/pulse/weakest-link-banking-security-atms-vanishree-rao-phd-/" class="btn btn-primary"> Visit Blog</a></small>
+        <small class="text-muted"><a href="blog6.html" class="btn btn-primary"> Visit Blog</a></small>
       </div>
     </div>
   </div>
+  
+  <div class="col">
+    <div class="card h-100">
+      <img src="mina1.png" class="card-img-top"
+        alt="" />
+      <div class="card-body">
+        <h5 class="card-title">Evolution of Whitebox Cryptography: There is No Security Without Secrecy!</h5>
+        <p class="card-text">
+         Published on August 18, 2017
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"><a href="blog7.html" class="btn btn-primary"> Visit Blog</a></small>
+      </div>
+    </div>
+  </div>
+  
   
   <div class="col">
     <div class="card h-100">
@@ -193,4 +213,6 @@
   </div>
 
 </div>	
-</div>	
+	
+</body>
+</html>

@@ -47,9 +47,9 @@
 		<p class="card-text">
 		<h6><span class="fw-bold">Pre-WWII Cryptography</span></h6>
 		Prior to 1948, the approach to cryptography was mostly ad hoc, without the much rigorous backing of mathematics:<br>
-		<span class="fw-bold">1.</span> Messages were tattooed on a messenger’s head and concealed with regrown hair; they were written on yard threads and woven into a clothing for the messenger; they were written in invisible inks. These methods can be traced back to 440 BC.</br><br>
-		<span class="fw-bold">2.</span> Slightly more sophisticated methods based on systematic scrambling – a process known as enciphering – were designed; for example, ‘Caesar cipher’ [44 BC] shifted each letter two places further through the alphabet; the ‘Vigenère cipher’ [1585] was a series of interwoven Caesar ciphers based on the letters of a secret keyword; the ‘pigpen cipher’ [18th century] substituted letters with symbols.</br><br>
-		<span class="fw-bold">3.</span> Fast forward, the Enigma machine, used to communicate secret messages by Germans in World War I and World War II, also scrambled messages with sequences of some permutations. This was one of the most complex encryption methods of its time. Famously, Alan Turing, a brilliant English mathematician, broke the Enigma code; as a result of this, the Allies were able to gather intelligence that enabled them to defeat the Nazis and win the war.</br>
+		<span class="fw-bold">1.</span>Messages were tattooed on a messenger’s head and concealed with regrown hair; they were written on yard threads and woven into a clothing for the messenger; they were written in invisible inks. These methods can be traced back to 440 BC.</br><br>
+		<span class="fw-bold">2.</span>Slightly more sophisticated methods based on systematic scrambling – a process known as enciphering – were designed; for example, ‘Caesar cipher’ [44 BC] shifted each letter two places further through the alphabet; the ‘Vigenère cipher’ [1585] was a series of interwoven Caesar ciphers based on the letters of a secret keyword; the ‘pigpen cipher’ [18th century] substituted letters with symbols.</br><br>
+		<span class="fw-bold">3.</span>Fast forward, the Enigma machine, used to communicate secret messages by Germans in World War I and World War II, also scrambled messages with sequences of some permutations. This was one of the most complex encryption methods of its time. Famously, Alan Turing, a brilliant English mathematician, broke the Enigma code; as a result of this, the Allies were able to gather intelligence that enabled them to defeat the Nazis and win the war.</br>
 		</p>
 		
 		<p class="card-text">
@@ -67,7 +67,7 @@
 		<h6><span class="fw-bold">Perception of a Hacker Evolved Swiftly in Modern Cryptography</span></h6>
 		Since [Shannon49], cryptography has advanced immensely in terms of the hacker’s power that it can defend against; stronger and stronger hackers are being modeled and new cryptographic protocols are being designed to protect against them.<br>
 		We will see a snapshot of the evolution. But before we proceed, here is some terminology we will use:</br><br>
-		<span class="fw-bold">1.Encryption</span> refers to the process of scrambling a message.</br><br>
+		<span class="fw-bold">1.Encryption</span>refers to the process of scrambling a message.</br><br>
 		<span class="fw-bold">2.A ciphertext </span>refers to a scrambled message resulting from encryption.</br><br>
 		<span class="fw-bold">3.Decryption</span> refers to the process of unscrambling a ciphertext; that is, the inverse of encryption.</br><br>
 		<span class="fw-bold">4.A secret key</span> is a string that enables encryption/decryption.</br>
