@@ -36,8 +36,8 @@
                 src="top.jpg"
                 alt="">
             <div class="px-3 px-md-5 text-center" style="z-index: 2">
-                <h1 class="text-white fw-light display-2"><span class="fw-bold">VANISHREE RAO</span> </h1>
-                <h3 class="text-white fw-bold">CRYPTOGRAPHER</h3>
+                <h1 class="text-black fw-light display-2"><span class="fw-bold">VANISHREE RAO</span> </h1>
+                <h3 class="text-black fw-bold">CRYPTOGRAPHER</h3>
                 <!--<a href="#registration" class="btn btn-light fw-bold mt-3">LEARN MORE</a> -->
             </div>
         </div>
