@@ -36,8 +36,7 @@
       <img src="mina1.png" class="card-img-top"
         alt="" />
       <div class="card-body">
-         <h6 class="card-title text-center "><span class="fw-bold">This article was originally published <a href="https://minaprotocol.com/blog/zero-knowledge-proofs-an-intuitive-explanation">here </a> on the blog post of <a href="https://minaprotocol.com/"> Mina Protocol</a></span></h6>
-		
+        
 		
         <p class="card-text">
 		<span class="fw-bold">Zero-knowledge proofs (ZKPs) </span>are a powerful cryptographic primitive that enables you to prove that you have a secret, without revealing it to anyone. If you are hearing about ZKPs for the first time, you are likely to say “Hah! That sounds impossible.” Read on to get an intuitive understanding of what they are. But first, some background. ZKPs were invented by Shafi Goldwasser, Silvio Micali, and Charles Rackoff in 1985. Ever since, ZKPs have been one of the most active areas of research in Cryptography. Moreover, recently, they are enjoying significant impact on real-world applications, specifically on blockchain technologies. Zcash, a pioneering blockchain project, employed ZKPs to achieve anonymity in financial transactions. At O(1)Labs, we are building CODA, the first succinct blockchain, using ZKPs. No matter how many transactions are recorded on the blockchain, the blockchain remains at most the size of a few tweets.

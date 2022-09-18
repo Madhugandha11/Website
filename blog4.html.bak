@@ -36,8 +36,7 @@
       <img src="mina1.png" class="card-img-top"
         alt="" />
       <div class="card-body">
-        <h6 class="card-title text-center "><span class="fw-bold">This article was originally published <a href="https://minaprotocol.com/blog/solving-the-scalability-trilemma">here </a> on the blog post of <a href="https://minaprotocol.com/"> Mina Protocol</a></span></h6>
-		
+        
 		
         <p class="card-text">
         1,000 TPS! 5,000 TPS!! 22,000 TPS!!! – these are the numbers many of the newer blockchains highlight when they talk about their project. Although there are many technical innovations, such claims fail to take into account that increasing TPS (transactions per second) without considering the cost of running a full node comes with a decentralization tradeoff.

@@ -36,7 +36,8 @@
       <img src="mina1.png" class="card-img-top"
         alt="" />
       <div class="card-body">
-        
+        <h6 class="card-title text-center "><span class="fw-bold">This article was originally published <a href="https://minaprotocol.com/blog/a-more-efficient-approach-to-zero-knowledge-for-plonk">here </a> on the blog post of <a href="https://minaprotocol.com/"> Mina Protocol</a></span></h6>
+		
 		
         <p class="card-text">
 		In PLONK (considered as an interactive oracle proof), the prover sends the verifier several polynomials. They are evaluated at some kk points during the course of the protocol. Of course, if we want zero-knowledge, we would require that those evaluations do not reveal anything about the proof’s underlying witness.<br>
@@ -59,10 +60,28 @@
 		
 		<span class="fw-bold">Procedure.</span>Sample k elements uniformly from F: r<sub>w+1</sub>,....., r<sub>w+k</sub> .Append them to the tuple of witness elements and then pad the remaining n - (w+k) places as zeroes. The resulting tuple is interpolated as the witness polynomial. This approach ensures zero knowledge for the witness polynomials as established by Lemma 1.
 		<br>
-		<span class="fw-bold">Lemma 1.</span> Let H \subset \mathbb{F}H⊂F be a domain of size nn. Let s_1, s_2, \ldots, s_w\in \mathbb{F}s 
-
-
+		<img src="blog3_1.png" class="card-img-top"
+        alt="" />
+		</p>
 		
+		<p class="card-text">
+		<h6><span class="fw-bold"> Zero Knowledge for the Permutation Polynomial</span> </h6>
+		The other polynomial in PLONK for which we need zero-knowledge is the “permutation polynomial” z.
+The idea here is to set the last kk evaluations to be uniformly random elements t<sub>1</sub>,....., t<sub>k</sub> 
+in F. Then, we’ll modify the verification equation to not check for those values to satisfy the permutation property.
+<br>
+	<img src="blog3_2.png" class="card-img-top"
+        alt="" />
+	<img src="blog3_3.png" class="card-img-top"
+        alt="" /></br><br>
+	<img src="blog3_4.png" class="card-img-top"
+        alt="" /></br><br>
+		
+		In the modified permutation polynomial above, the multiple (X-h<sub>n-k</sub>) ....(X-h<sub>n-1</sub>)(X-h<sub>n</sub>)
+​ensures that the permutation check is performed only on all the values except the last kk elements in the witness polynomials.
+</br>
+		
+		</p>
 		
 		</div>
       <div class="card-footer text-center">
