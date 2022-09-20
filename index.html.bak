@@ -20,6 +20,40 @@
             font-family: "Times New Roman", Times, serif; 
         }
 		
+    .table>:not(caption)>*>* {
+        border-bottom: none !important;
+    }
+
+    .lead {
+        font-weight: 300 !important;
+    }
+
+    .fw-bolder {
+        font-weight: 700 !important;
+    }
+
+    b {
+        font-weight: 700 !important;
+    }
+
+    /* phone media query */
+    @media (max-width:870px) {
+        #topImg {
+            right: 0% !important;
+            bottom: -35%;
+        }
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
 		@media only screen and (max-width: 600px) { 
     body { 
         background-color: lightblue; 
@@ -1187,41 +1221,6 @@
     </div>
 </body>
 
-<style>
-    .table>:not(caption)>*>* {
-        border-bottom: none !important;
-    }
-
-    .lead {
-        font-weight: 300 !important;
-    }
-
-    .fw-bolder {
-        font-weight: 700 !important;
-    }
-
-    b {
-        font-weight: 700 !important;
-    }
-
-    /* phone media query */
-    @media (max-width:870px) {
-        #topImg {
-            right: 0% !important;
-            bottom: -35%;
-        }
-    }
-
-    @keyframes rotate {
-        0% {
-            transform: rotate(0deg);
-        }
-
-        100% {
-            transform: rotate(360deg);
-        }
-    }
-</style>
 
 <!-- Bootstrap JavaScript Libraries -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
