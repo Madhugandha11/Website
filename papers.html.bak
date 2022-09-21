@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Vanishree ma'am's Website</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+			background-color: pink;		
+        }
+    </style>
+</head>
+
+<body style="background-image: url('https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80');
+            width : 100%">
+
+<div class="container" >
+
+		
+		<div class="row text-center mt-5 mb-4">
+            <h1><u>PUBLISHED PAPERS</u></h1>
+            <!--<p>Sample Filler Text</p>-->
+        </div>
+		
+		
+		<div>
+		<a href="https://docs.minaprotocol.com/static/pdf/technicalWhitepaper.pdf">
+		<div  class="card ">
+		
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">1. Mina: Decentralized Cryptocurrency at Scale
+                            </h4>
+							
+			</div>
+		</div>
+		</div>
+							
+							
+		<div>
+		<a href="https://eprint.iacr.org/2020/352.pdf">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">2. Coda: Decentralized Cryptocurrency at Scale
+                            </h4>
+			</div>
+		</div>
+		</div>
+							
+		<div>
+		<a href="https://arxiv.org/pdf/1901.00832.pdf">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">3. Secure Two-Party Feature Selection 
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		<div>
+		<a href="https://dl.acm.org/doi/abs/10.1145/3029806.3029829?casa_token=qpXF5WxXaekAAAAA%3A_MYPEKWk5xxeKSgQ_HGDIuYTYhNnXJ-WHONx4mqR6ji6o9aARyCl-gk0os2H43zybWa3UWeIXqPneA">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">4. Achieving Differential Privacy in Secure Multiparty Data Aggregation
+                                Protocols on Star Networks
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		<div>
+		<a href="https://link.springer.com/chapter/10.1007/978-3-662-49387-8_9">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">5. Adaptively Secure Multi-Party Computation from LWE (via Equivocal
+                                FHE)
+                            </h4>
+			</div>
+		</div>
+		</div>
+				
+
+		<div>
+		<a href="https://link.springer.com/chapter/10.1007/978-3-662-53644-5_5">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">6. Standard Security Does Not Imply Indistinguishability Under Selective
+                                Opening
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		<div>
+		<a href="https://escholarship.org/content/qt55g8v0ws/qt55g8v0ws_noSplash_145cd270e6e2652aee3816df30eaeca5.pdf">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">7. Adaptively-secure Multiparty Non-interactive Key Exchange
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		<div>
+		<a href="https://link.springer.com/chapter/10.1007/978-3-662-48797-6_3">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">8. Multi-party Key Exchange for Unbounded Parties from
+                                Indistinguishability
+                                Obfuscation 
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		<div>
+		<a href="https://link.springer.com/content/pdf/10.1007/978-3-662-46497-7_23.pdf">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">9. Adaptively Secure, Universally Composable,
+                                Multiparty Computation in Constant Rounds
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		
+		<div>
+		<a href="https://link.springer.com/chapter/10.1007/978-3-662-53644-5_5">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">10. Standard Security Does Not Imply Indistinguishability Under Selective
+                                Opening 
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		<div>
+		<a href="https://link.springer.com/content/pdf/10.1007/978-3-662-45608-8_5.pdf">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">11.Adaptive Security of Constrained PRFs
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		<div>
+		<a href="http://web.cs.ucla.edu/~rafail/PUBLIC/164.pdf">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">12. On Selective-Opening Attacks Against Encryption Schemes
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		<div>
+		<a href="https://link.springer.com/content/pdf/10.1007/978-3-642-54242-8_8.pdf">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">13. Statistical Concurrent Non-malleable Zero Knowledge
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		
+		
+		<div>
+		<a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.690.843&rep=rep1&type=pdf">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">14. Adaptively Secure UC Constant Round Multi-Party Computation 
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		<div>
+		<a href="https://eprint.iacr.org/2014/910.pdf">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">15. Adaptive Multiparty Non-interactive Key Exchange Without Setup In The
+                                Standard Model 
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		
+		<div>
+		<a href="https://dl.acm.org/doi/pdf/10.1145/2489280.2489294?casa_token=5gWnyzU9BjUAAAAA:KPv41qyNeESaczRVSzi0UoBFtQ-Cd4mCRMo54ZowOK6deRLs-tdXSSKhTWL5wNrRyZ7kKHu5OrJiS70">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">16. An Auto-review Tool for Model-Based Testing of SafetyCritical
+                                Systems
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		<div>
+		<a href="https://link.springer.com/content/pdf/10.1007/978-3-642-36594-2_12.pdf">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">17. On the (In)security of Fischlin’s Paradigm
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		<div>
+		<a href="https://link.springer.com/content/pdf/10.1007/978-3-642-36594-2_31.pdf">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">18. Revisiting Lower and Upper Bounds for Selective Decommitments
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		<div>
+		<a href="https://link.springer.com/content/pdf/10.1007/978-3-642-22792-9_36.pdf">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">19.Round Optimal Blind Signatures
+                            </h4>
+			</div>
+		</div>
+		</div>
+		
+		<div>
+		<a href="https://link.springer.com/content/pdf/10.1007/978-3-642-19571-6_12.pdf">
+		<div  class="card " >
+                        <div class="card-body" style="width:100 px; font-size: .9rem; padding-top: 25px; padding-bottom: 25px;  " >
+                            <h4 class="card-title ">20. Correlated-Input Secure Hash Functions
+                            </h4>
+			</div>
+		</div>
+		</div>
+	
+       <div class="card-footer text-center ">
+        <a href="index.html" class="btn btn-secondary btn-lg btn-block">Visit Website</a>
+      </div> 
+  
+  
+   
+  
+  
+  
+</div>
+
+</body>
+</html>
+
+          
